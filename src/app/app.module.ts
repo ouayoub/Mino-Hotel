@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TopbarComponent } from './topbar/topbar.component';
 import { BottomBarComponent } from './bottom-bar/bottom-bar.component';
+import { CarouselComponent } from './home/carousel/carousel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopbarComponent,
-    BottomBarComponent
+    BottomBarComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
