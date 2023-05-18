@@ -1,0 +1,32 @@
+  $firstcol : #CCCC5C;
+  $secondcol : #E3E3BA;
+  $thirdcol : #65643C;
+  $lastcol : #84A87C;
+
+  ul li a {
+
+   text-decoration: none;
+   color: $thirdcol !important;
+   padding: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+  }
+
+
+  ul li {
+
+   color: $thirdcol !important;
+   background: $firstcol;
+   border-radius: 5px;
+   padding-top: 3px;
+   padding-bottom: 6px;
+  }
+
+  ul li:hover {
+
+   background: $secondcol ;
+   transition: ease-in-out 100ms;
+
+  }
