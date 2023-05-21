@@ -7,6 +7,13 @@ $thirdcol : #65643C;
 $lastcol : #84A87C;
 
 
+
+.firstcol{
+ color: $firstcol;
+}
 body{
  color: #65643C !important;
+}
+.mystyle{
+ font-family:'Josefin Sans light', Courier, monospace;
 }

@@ -1,7 +1,6 @@
-  $firstcol : #CCCC5C;
-  $secondcol : #E3E3BA;
-  $thirdcol : #65643C;
-  $lastcol : #84A87C;
+  
+  @import '../../styles.scss';
+   
 
   ul li a {
 
@@ -11,7 +10,8 @@
    padding-left: 20px;
    padding-right: 20px;
    padding-top: 5px;
-   padding-bottom: 5px;
+   padding-bottom: 5px; 
+   font-family:'Josefin Sans regular', Courier, monospace; 
   }
 
 

@@ -4,19 +4,21 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TopbarComponent } from './topbar/topbar.component';
-import { BottomBarComponent } from './bottom-bar/bottom-bar.component';
-import { CarouselComponent } from './home/carousel/carousel.component';
-
+import { BottomBarComponent } from './bottom-bar/bottom-bar.component';    
+import { HomeModule } from './home/home.module';
 @NgModule({
   declarations: [
     AppComponent,
     TopbarComponent,
-    BottomBarComponent,
-    CarouselComponent
+    BottomBarComponent
+  
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HomeModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
