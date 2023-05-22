@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { TopbarComponent } from './topbar/topbar.component';
 import { BottomBarComponent } from './bottom-bar/bottom-bar.component';    
 import { HomeModule } from './home/home.module';
+import { FooterComponent } from './footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
     TopbarComponent,
-    BottomBarComponent
+    BottomBarComponent,
+    FooterComponent
   
     
   ],

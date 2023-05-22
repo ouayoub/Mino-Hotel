@@ -6,6 +6,7 @@ import { HomeComponent } from './home/home/home.component';
 import { StoryPanelComponent } from './story-panel/story-panel.component';
 import { RoomPanelComponent } from './room-panel/room-panel.component';
 import { RestaurantBarPanelComponent } from './restaurant-bar-panel/restaurant-bar-panel.component';
+import { PopularDestinationsPanelComponent } from './popular-destinations-panel/popular-destinations-panel.component';
 
 
 
@@ -16,7 +17,8 @@ import { RestaurantBarPanelComponent } from './restaurant-bar-panel/restaurant-b
     HomeComponent,
     StoryPanelComponent,
     RoomPanelComponent,
-    RestaurantBarPanelComponent
+    RestaurantBarPanelComponent,
+    PopularDestinationsPanelComponent
   ],
   imports: [
     CommonModule

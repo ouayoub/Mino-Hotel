@@ -1,16 +1,21 @@
 @import '../../../styles.scss';
 
-h1 {  
+h1 {
  font-family: 'Josefin Sans regular', Courier, monospace;
 }
-.wrapper{
+
+.wrapper {
  width: 100%;
 }
- 
-img{
+
+img {
  cursor: pointer;
  width: 302px;
  height: 300px;
  object-fit: cover;
  margin: 5px;
+}
+img:hover{
+ opacity: 0.7;
+ transition: ease-in-out 300ms;
 }
