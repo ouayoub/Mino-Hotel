@@ -1,20 +1,60 @@
 @import '../../styles.scss';
 
- 
-h5{
+
+h5 {
  color: white;
  cursor: pointer;
+ font-family: 'Josefin Sans semibold', Courier, monospace;
+
 }
 
-a{
+a {
  margin-bottom: 5px;
  text-decoration: none;
  color: rgb(198, 198, 198);
 }
-img{
- width: 30px;
+
+img {
+ width: 31px;
  margin: 5px;
  cursor: pointer;
- 
+
 }
- 
+
+textarea {
+ padding: 10px;
+ border: solid 0px;
+ height: 150px;
+ width: 500PX;
+ background-color: rgb(77, 77, 77);
+ color: white;
+ border-radius: 10px;
+}
+
+textarea:focus {
+ outline: none;
+ border: solid 0px;
+}
+
+strong {
+ color: $firstcol;
+ font-family: 'Josefin Sans semibold', Courier, monospace;
+
+}
+
+button {
+ font-family: 'Josefin Sans semibold', Courier, monospace;
+ padding-left: 30px !important;
+ padding-right: 30px !important;
+ border-radius: 5px;
+ border: solid 0px;
+ background-color: $firstcol;
+ color: white;
+ box-shadow: 1px 1px 2px;
+
+}
+
+button:active {
+ box-shadow: 0px 0px 0px;
+
+}
