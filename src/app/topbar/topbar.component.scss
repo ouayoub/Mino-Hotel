@@ -1,8 +1,15 @@
 @import '../../styles.scss';
 
+.brand{
+color: $firstcol; 
+font-family:'Josefin Sans semibold', Courier, monospace;
+
+}
+
 nav{
- height: 60px;
- background-color: $firstcol;
+ background-color: white;
+ object-fit: cover;
+ height: 60px;  
  display: block;
  position: sticky; 
  top: 0px;
@@ -11,3 +18,7 @@ nav{
 .navbar-nav{
  margin-top: -10px;
 }
+strong{
+ color: $firstcol;
+}
+ 
