@@ -1,6 +1,6 @@
-  
   @import '../../styles.scss';
    
+
 
   ul li a {
 
@@ -13,15 +13,20 @@
    padding-bottom: 5px; 
    font-family:'Josefin Sans regular', Courier, monospace; 
   }
+  ul{
+    width: 100%;
+  }
 
 
   ul li {
-
+ 
+   margin-left: auto  ;
+   margin-right: auto  ; 
    color: $thirdcol !important;
    background: $secondcol;
    border-radius: 5px;
    padding-top: 3px;
-   padding-bottom: 6px;
+   padding-bottom: 6px; 
   }
 
   ul li:hover {
@@ -29,4 +34,27 @@
    background: $firstcol ;
    transition: ease-in-out 100ms;
 
+  }
+// disktop 1400px
+
+
+@media (max-width:1400px) {
+  ul li {
+ 
+  font-size: small;
+   }
+}
+
+@media (max-width:1200px) {
+  ul li {
+ 
+  font-size: 9px;
+   }
+}
+  // tablette mode  >>
+
+  @media (max-Width:770px) {
+    ul{
+      display: none !important;
+    }
   }

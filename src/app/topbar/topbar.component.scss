@@ -7,18 +7,49 @@ font-family:'Josefin Sans semibold', Courier, monospace;
 }
 
 nav{
- background-color: white;
- object-fit: cover;
+ background-color: white; 
  height: 60px;  
  display: block;
  position: sticky; 
  top: 0px;
  z-index: 1000;
 }
-.navbar-nav{
- margin-top: -10px;
-}
+
 strong{
- color: $firstcol;
+ color: $firstcol; 
+}
+.nav-item{
+ top: 0px;
+}
+.num{ 
+margin-top:-20px ;
+}
+svg{
+ margin-left: 10px;
+ padding: 2px;
+ cursor: pointer;
+ 
 }
  
+@media (min-width:770px) { 
+ .nav{
+  display:none;
+ }
+ 
+}
+@media (max-width:770px) {
+ .nav{
+  margin-bottom: 20px;
+  display:block;
+  position: sticky; 
+  top: 70px;
+  z-index: 1000; 
+ }
+ .brand{
+  text-align: center !important;
+ }
+ strong{
+  display: none !important;
+ }
+  
+}

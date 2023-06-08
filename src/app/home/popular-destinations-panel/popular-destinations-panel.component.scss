@@ -24,18 +24,18 @@ p {
 }
 
 button {
-  font-family: 'Josefin Sans semibold', Courier, monospace;  
+  font-family: 'Josefin Sans semibold', Courier, monospace;
   padding-left: 50px;
   padding-right: 50px;
   margin-left: 10px;
-  margin-right: 10px; 
-  border: solid 1px white ;
+  margin-right: 10px;
+  border: solid 1px white;
   color: $firstcol;
 }
 
- button:hover{
+button:hover {
   color: $firstcol;
- }
+}
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
@@ -43,12 +43,14 @@ button {
   background-color: $firstcol;
 }
 
-.card-img-top, .card {
+.card-img-top,
+.card {
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
 }
-.to-book{
-  font-family: 'Josefin Sans semibold', Courier, monospace; 
+
+.to-book {
+  font-family: 'Josefin Sans semibold', Courier, monospace;
   padding: 5px;
   padding-left: 50px;
   padding-right: 50px;
@@ -58,18 +60,20 @@ button {
   background-color: white;
   color: $firstcol;
 }
-.to-book:hover { 
+
+.to-book:hover {
   border: solid 1px $firstcol;
   color: $firstcol ;
 }
-.to-book:active { 
- 
-  color: white ;
+
+.to-book:active {
+
+  color: white;
   background-color: $firstcol;
-  border: solid 1px white ;
+  border: solid 1px white;
 }
 
- 
+
 /*
 
 
